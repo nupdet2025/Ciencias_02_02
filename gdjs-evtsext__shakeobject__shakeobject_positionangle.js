@@ -156,7 +156,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ShakeOb
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (typeof eventsFunctionContext !== 'undefined' ? !!eventsFunctionContext.getArgument("ShakeForever") : false);
+{isConditionTrue_0 = eventsFunctionContext.getArgument("ShakeForever");
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngle.ShakeObject_PositionAngle.prototype.ShakeObject_PositionAngleContext.GDObjectObjects2);
@@ -1654,7 +1654,7 @@ gdjs.copyArray(gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngle.ShakeObject_
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13720988);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(15061692);
 }
 }
 if (isConditionTrue_0) {
